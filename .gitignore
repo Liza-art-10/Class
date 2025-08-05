@@ -1,0 +1,21 @@
+# Игнорировать папку сборки
+build/
+
+# Игнорировать файлы CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Игнорировать скомпилированные файлы
+*.o
+*.a
+*.so
+*.out
+
+# Игнорировать исполняемые файлы
+car_project
+
+# Игнорировать настройки редакторов
+.vscode/
+.idea/
